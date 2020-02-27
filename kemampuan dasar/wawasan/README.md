@@ -1,7 +1,7 @@
-### Teknologi informasi
+### Teknologi Informasi
 >Teknologi Informasi (TI) adalah teknologi apa pun yang membantu manusia dalam membuat, mengubah, menyimpan, mengomunikasikan dan/atau menyebarkan informasi. TI menyatukan komputasi dan komunikasi berkecepatan tinggi untuk data, suara, dan video. Contoh dari Teknologi Informasi bukan hanya berupa komputer pribadi, tetapi juga telepon, TV, peralatan rumah tangga elektronik, dan peranti genggam modern (misalnya ponsel). Perangkat lunak atau peranti lunak (software) adalah istilah khusus untuk data yang diformat, dan disimpan secara digital, termasuk program komputer, dokumentasinya, dan berbagai informasi yang bisa dibaca, dan ditulis oleh komputer.Pembuatan perangkat lunak itu sendiri memerlukan "bahasa pemrograman" yang ditulis oleh seorang pemrogram untuk selanjutnya dikompilasi dengan aplikasi kompiler sehingga menjadi kode yang bisa dikenali oleh mesin hardware. Perangkat lunak seperti Windows atau Linux bisa disebut sebagai nyawa dari komputer, di mana tanpa diinstal sistem operasi tersebut maka komputer tidak dapat dijalankan.
 
-### Perbedaan antara teknik informatika dengan ilmu komputer
+### Perbedaan antara Teknik Informatika dengan Ilmu Komputer
 >Ilmu komputer adalah studi tentang teori, eksperimen, dan teknik yang membentuk dasar untuk desain dan penggunaan komputer. Seorang ilmuwan komputer mengkhususkan diri dalam teori komputasi dan desain sistem komputasi. Sedangkan Informatika merupakan praktik pengolahan informasi dan rekayasa sistem informasi. Bidang ini mempertimbangkan interaksi antara manusia dan informasi di samping pembangunan antarmuka, organisasi, teknologi dan sistem. 
 
 ### Software Development
