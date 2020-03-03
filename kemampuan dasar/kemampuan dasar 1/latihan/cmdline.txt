@@ -1,0 +1,716 @@
+ 1.Directory of C:\Users\ThinkPad L450 i5
+
+15/01/2020  23:35    <DIR>          .
+15/01/2020  23:35    <DIR>          ..
+08/11/2019  14:06    <DIR>          .android
+08/11/2019  14:05    <DIR>          .AndroidStudio3.5
+19/12/2019  22:03    <DIR>          .PyCharm2019.3
+13/02/2020  15:42    <DIR>          3D Objects
+13/02/2020  15:42    <DIR>          Contacts
+13/02/2020  15:42    <DIR>          Desktop
+15/02/2020  11:12    <DIR>          Documents
+26/02/2020  14:27    <DIR>          Downloads
+13/02/2020  15:42    <DIR>          Favorites
+13/02/2020  15:42    <DIR>          Links
+03/12/2019  07:47    <DIR>          Microsoft
+13/02/2020  15:42    <DIR>          Music
+22/02/2020  14:08    <DIR>          OneDrive
+13/02/2020  15:42    <DIR>          Pictures
+15/01/2020  23:35    <DIR>          PycharmProjects
+13/02/2020  15:42    <DIR>          Saved Games
+13/02/2020  15:42    <DIR>          Searches
+13/02/2020  15:42    <DIR>          Videos
+               0 File(s)              0 bytes
+              20 Dir(s)  18.054.524.928 bytes free
+
+2.C:\Users\ThinkPad L450 i5>date
+The current date is: 26/02/2020
+Enter the new date: (dd-mm-yy)
+
+3.C:\Users\ThinkPad L450 i5>defrag
+Microsoft Drive Optimizer
+Copyright (c) Microsoft Corp.
+
+Description:
+
+        Optimizes and defragments files on local volumes to
+        improve system performance.
+
+Syntax:
+
+        defrag <volumes> | /C | /E <volumes> [<task(s)>] [/H] [/M [n] | [/U] [/V]] [/I n]
+
+        Where <task(s)> is omitted (traditional defrag), or as follows:
+                /A | [/D] [/K] [/L] | /O | /X
+
+        Or, to track an operation already in progress on a volume:
+        defrag <volume> /T
+
+Parameters:
+
+        Value   Description
+        /A      Perform analysis on the specified volumes.
+        /C      Perform the operation on all volumes.
+        /D      Perform traditional defrag (this is the default).  On a tiered volume
+                though, traditional defrag is performed only on the Capacity tier.
+        /E      Perform the operation on all volumes except those specified.
+        /G      Optimize the storage tiers on the specified volumes.
+        /H      Run the operation at normal priority (default is low).
+        /I n    Tier optimization would run for at most n seconds on each volume.
+        /K      Perform slab consolidation on the specified volumes.
+        /L      Perform retrim on the specified volumes.
+        /M [n]  Run the operation on each volume in parallel in the background.
+                At most n threads optimize the storage tiers in parallel.
+        /O      Perform the proper optimization for each media type.
+        /T      Track an operation already in progress on the specified volume.
+        /U      Print the progress of the operation on the screen.
+        /V      Print verbose output containing the fragmentation statistics.
+        /X      Perform free space consolidation on the specified volumes.
+
+Examples:
+
+        defrag C: /U /V
+        defrag C: D: /M
+        defrag C:\mountpoint /A /U
+        defrag /C /H /V
+
+4.C:\Users\ThinkPad L450 i5>dxdiag
+
+5.C:\Users\ThinkPad L450 i5>cls
+
+6.C:\Users\ThinkPad L450 i5>chkdsk
+Access Denied as you do not have sufficient privileges or
+the disk may be locked by another process.
+You have to invoke this utility running in elevated mode
+and make sure the disk is unlocked.
+
+7.C:\Users\ThinkPad L450 i5>help
+For more information on a specific command, type HELP command-name
+ASSOC          Displays or modifies file extension associations.
+ATTRIB         Displays or changes file attributes.
+BREAK          Sets or clears extended CTRL+C checking.
+BCDEDIT        Sets properties in boot database to control boot loading.
+CACLS          Displays or modifies access control lists (ACLs) of files.
+CALL           Calls one batch program from another.
+CD             Displays the name of or changes the current directory.
+CHCP           Displays or sets the active code page number.
+CHDIR          Displays the name of or changes the current directory.
+CHKDSK         Checks a disk and displays a status report.
+CHKNTFS        Displays or modifies the checking of disk at boot time.
+CLS            Clears the screen.
+CMD            Starts a new instance of the Windows command interpreter.
+COLOR          Sets the default console foreground and background colors.
+COMP           Compares the contents of two files or sets of files.
+COMPACT        Displays or alters the compression of files on NTFS partitions.
+CONVERT        Converts FAT volumes to NTFS.  You cannot convert the
+               current drive.
+COPY           Copies one or more files to another location.
+DATE           Displays or sets the date.
+DEL            Deletes one or more files.
+DIR            Displays a list of files and subdirectories in a directory.
+DISKPART       Displays or configures Disk Partition properties.
+DOSKEY         Edits command lines, recalls Windows commands, and
+               creates macros.
+DRIVERQUERY    Displays current device driver status and properties.
+ECHO           Displays messages, or turns command echoing on or off.
+ENDLOCAL       Ends localization of environment changes in a batch file.
+ERASE          Deletes one or more files.
+EXIT           Quits the CMD.EXE program (command interpreter).
+FC             Compares two files or sets of files, and displays the
+               differences between them.
+FIND           Searches for a text string in a file or files.
+FINDSTR        Searches for strings in files.
+FOR            Runs a specified command for each file in a set of files.
+FORMAT         Formats a disk for use with Windows.
+FSUTIL         Displays or configures the file system properties.
+FTYPE          Displays or modifies file types used in file extension
+               associations.
+GOTO           Directs the Windows command interpreter to a labeled line in
+               a batch program.
+GPRESULT       Displays Group Policy information for machine or user.
+GRAFTABL       Enables Windows to display an extended character set in
+               graphics mode.
+HELP           Provides Help information for Windows commands.
+ICACLS         Display, modify, backup, or restore ACLs for files and
+               directories.
+IF             Performs conditional processing in batch programs.
+LABEL          Creates, changes, or deletes the volume label of a disk.
+MD             Creates a directory.
+MKDIR          Creates a directory.
+MKLINK         Creates Symbolic Links and Hard Links
+MODE           Configures a system device.
+MORE           Displays output one screen at a time.
+MOVE           Moves one or more files from one directory to another
+               directory.
+OPENFILES      Displays files opened by remote users for a file share.
+PATH           Displays or sets a search path for executable files.
+PAUSE          Suspends processing of a batch file and displays a message.
+POPD           Restores the previous value of the current directory saved by
+               PUSHD.
+PRINT          Prints a text file.
+PROMPT         Changes the Windows command prompt.
+PUSHD          Saves the current directory then changes it.
+RD             Removes a directory.
+RECOVER        Recovers readable information from a bad or defective disk.
+REM            Records comments (remarks) in batch files or CONFIG.SYS.
+REN            Renames a file or files.
+RENAME         Renames a file or files.
+REPLACE        Replaces files.
+RMDIR          Removes a directory.
+ROBOCOPY       Advanced utility to copy files and directory trees
+SET            Displays, sets, or removes Windows environment variables.
+SETLOCAL       Begins localization of environment changes in a batch file.
+SC             Displays or configures services (background processes).
+SCHTASKS       Schedules commands and programs to run on a computer.
+SHIFT          Shifts the position of replaceable parameters in batch files.
+SHUTDOWN       Allows proper local or remote shutdown of machine.
+SORT           Sorts input.
+START          Starts a separate window to run a specified program or command.
+SUBST          Associates a path with a drive letter.
+SYSTEMINFO     Displays machine specific properties and configuration.
+TASKLIST       Displays all currently running tasks including services.
+TASKKILL       Kill or stop a running process or application.
+TIME           Displays or sets the system time.
+TITLE          Sets the window title for a CMD.EXE session.
+TREE           Graphically displays the directory structure of a drive or
+               path.
+TYPE           Displays the contents of a text file.
+VER            Displays the Windows version.
+VERIFY         Tells Windows whether to verify that your files are written
+               correctly to a disk.
+VOL            Displays a disk volume label and serial number.
+XCOPY          Copies files and directory trees.
+WMIC           Displays WMI information inside interactive command shell.
+
+For more information on tools see the command-line reference in the online help.
+
+8.C:\Users\ThinkPad L450 i5>tasklist
+
+Image Name                     PID Session Name        Session#    Mem Usage
+========================= ======== ================ =========== ============
+System Idle Process              0 Services                   0          8 K
+System                           4 Services                   0         20 K
+Registry                        96 Services                   0     64.336 K
+smss.exe                       368 Services                   0        360 K
+csrss.exe                      556 Services                   0      2.204 K
+wininit.exe                    648 Services                   0        996 K
+services.exe                   720 Services                   0      6.544 K
+lsass.exe                      736 Services                   0     14.388 K
+svchost.exe                    852 Services                   0        696 K
+fontdrvhost.exe                876 Services                   0        800 K
+svchost.exe                    884 Services                   0     31.456 K
+WUDFHost.exe                   892 Services                   0      3.948 K
+svchost.exe                   1012 Services                   0     14.580 K
+svchost.exe                    420 Services                   0      4.872 K
+WUDFHost.exe                   868 Services                   0      2.728 K
+svchost.exe                   1248 Services                   0      4.728 K
+svchost.exe                   1264 Services                   0      5.584 K
+svchost.exe                   1272 Services                   0      5.700 K
+svchost.exe                   1332 Services                   0      8.684 K
+svchost.exe                   1376 Services                   0      5.144 K
+svchost.exe                   1384 Services                   0      4.784 K
+svchost.exe                   1536 Services                   0      4.560 K
+svchost.exe                   1588 Services                   0      3.472 K
+svchost.exe                   1648 Services                   0      5.208 K
+ibmpmsvc.exe                  1772 Services                   0      2.380 K
+svchost.exe                   1780 Services                   0      2.212 K
+LPlatSvc.exe                  1792 Services                   0      2.936 K
+svchost.exe                   1860 Services                   0      6.508 K
+QMEmulatorService.exe         1976 Services                   0      1.808 K
+svchost.exe                   1656 Services                   0      3.912 K
+svchost.exe                   1612 Services                   0      3.292 K
+svchost.exe                   2060 Services                   0      6.656 K
+svchost.exe                   2092 Services                   0      4.056 K
+svchost.exe                   2140 Services                   0      2.984 K
+svchost.exe                   2196 Services                   0      2.968 K
+svchost.exe                   2264 Services                   0     11.804 K
+svchost.exe                   2328 Services                   0      4.128 K
+svchost.exe                   2336 Services                   0      7.040 K
+svchost.exe                   2352 Services                   0      1.400 K
+svchost.exe                   2456 Services                   0      4.848 K
+svchost.exe                   2476 Services                   0      7.896 K
+Memory Compression            2504 Services                   0     66.688 K
+igfxCUIService.exe            2552 Services                   0      3.988 K
+svchost.exe                   2608 Services                   0      3.816 K
+svchost.exe                   2624 Services                   0      6.172 K
+svchost.exe                   2736 Services                   0     14.832 K
+svchost.exe                   2772 Services                   0      5.740 K
+svchost.exe                   2936 Services                   0     10.404 K
+RtkAudioService64.exe         2260 Services                   0      2.036 K
+svchost.exe                   2056 Services                   0     13.688 K
+svchost.exe                   3184 Services                   0      2.764 K
+svchost.exe                   3192 Services                   0      5.156 K
+svchost.exe                   3200 Services                   0      4.096 K
+svchost.exe                   3344 Services                   0      5.164 K
+svchost.exe                   3364 Services                   0      5.984 K
+svchost.exe                   3488 Services                   0     12.036 K
+svchost.exe                   3496 Services                   0     12.960 K
+svchost.exe                   3564 Services                   0      7.144 K
+svchost.exe                   3684 Services                   0      2.212 K
+spoolsv.exe                   3696 Services                   0      9.356 K
+svchost.exe                   3760 Services                   0      5.996 K
+svchost.exe                   3800 Services                   0     16.312 K
+svchost.exe                   3844 Services                   0      1.832 K
+svchost.exe                   3880 Services                   0     18.712 K
+svchost.exe                   4056 Services                   0      6.420 K
+armsvc.exe                    4112 Services                   0      1.400 K
+AdobeUpdateService.exe        4132 Services                   0      1.928 K
+AGMService.exe                4144 Services                   0      6.428 K
+AnyDesk.exe                   4160 Services                   0      5.108 K
+AGSService.exe                4172 Services                   0      6.648 K
+AppleMobileDeviceService.     4212 Services                   0      4.960 K
+mDNSResponder.exe             4228 Services                   0      3.924 K
+svchost.exe                   4276 Services                   0      8.948 K
+svchost.exe                   4304 Services                   0     24.772 K
+svchost.exe                   4332 Services                   0     38.132 K
+Agent.exe                     4360 Services                   0     12.084 K
+EBCClient.exe                 4384 Services                   0      7.196 K
+ibtsiva.exe                   4420 Services                   0      1.936 K
+svchost.exe                   4428 Services                   0      3.052 K
+svchost.exe                   4436 Services                   0      7.664 K
+svchost.exe                   4468 Services                   0      3.612 K
+PsiService_2.exe              4508 Services                   0      1.088 K
+svchost.exe                   4532 Services                   0      1.012 K
+svchost.exe                   4540 Services                   0      3.988 K
+SynTPEnhService.exe           4572 Services                   0      2.232 K
+svchost.exe                   4624 Services                   0      1.968 K
+tphkload.exe                  4632 Services                   0      4.420 K
+valWBFPolicyService.exe       4648 Services                   0      1.096 K
+valWbioSyncSvc.exe            4672 Services                   0      3.224 K
+TeamViewer_Service.exe        4728 Services                   0      6.332 K
+MsMpEng.exe                   4772 Services                   0    223.052 K
+svchost.exe                   4788 Services                   0     13.232 K
+svchost.exe                   4800 Services                   0      2.828 K
+svchost.exe                   4908 Services                   0      2.912 K
+unsecapp.exe                  5340 Services                   0      2.756 K
+vds.exe                       5908 Services                   0      3.748 K
+svchost.exe                   6036 Services                   0      3.880 K
+dasHost.exe                   6740 Services                   0     10.300 K
+svchost.exe                   6916 Services                   0      3.924 K
+NisSrv.exe                    7136 Services                   0      7.716 K
+svchost.exe                   6428 Services                   0      5.060 K
+dllhost.exe                   7248 Services                   0      4.856 K
+svchost.exe                   8200 Services                   0      7.140 K
+svchost.exe                   8220 Services                   0      5.124 K
+PresentationFontCache.exe     8600 Services                   0      3.492 K
+svchost.exe                   8772 Services                   0     10.744 K
+svchost.exe                   8880 Services                   0      2.232 K
+svchost.exe                   9096 Services                   0     10.696 K
+svchost.exe                  10412 Services                   0     11.372 K
+svchost.exe                  10472 Services                   0     14.736 K
+svchost.exe                   1292 Services                   0      9.352 K
+svchost.exe                  14392 Services                   0     11.844 K
+svchost.exe                  15272 Services                   0      6.316 K
+SgrmBroker.exe               13356 Services                   0      4.452 K
+svchost.exe                  11452 Services                   0      5.012 K
+svchost.exe                   9796 Services                   0      3.040 K
+SecurityHealthService.exe     3212 Services                   0      7.236 K
+svchost.exe                  11416 Services                   0      3.720 K
+svchost.exe                  14048 Services                   0      3.080 K
+csrss.exe                    11016 Console                    3      3.248 K
+winlogon.exe                 12572 Console                    3      5.092 K
+fontdrvhost.exe              16516 Console                    3     10.048 K
+dwm.exe                      12064 Console                    3     61.896 K
+RAVBg64.exe                   9104 Console                    3      5.592 K
+SynTPEnh.exe                  4068 Console                    3     10.552 K
+tpnumlkd.exe                 10196 Console                    3      4.340 K
+tposd.exe                    20196 Console                    3      3.688 K
+shtctky.exe                  10820 Console                    3      5.620 K
+SynTPLpr.exe                  5556 Console                    3      2.844 K
+SynLenovoHelper.exe          10536 Console                    3      3.288 K
+SynTPHelper.exe              20168 Console                    3      1.116 K
+SensorDBSynch.exe            14056 Console                    3        928 K
+conhost.exe                  15448 Console                    3      1.360 K
+sihost.exe                   12724 Console                    3     34.672 K
+svchost.exe                   3692 Console                    3     12.868 K
+svchost.exe                    464 Console                    3     28.864 K
+taskhostw.exe                11368 Console                    3     16.956 K
+igfxEM.exe                    3604 Console                    3      5.332 K
+igfxHK.exe                   20384 Console                    3      3.332 K
+explorer.exe                  9584 Console                    3    135.728 K
+svchost.exe                   9324 Console                    3     15.544 K
+StartMenuExperienceHost.e     9320 Console                    3     57.180 K
+TodoBackupService.exe        17160 Console                    3      2.856 K
+RuntimeBroker.exe             9076 Console                    3     17.592 K
+ctfmon.exe                    4700 Console                    3      9.760 K
+SearchUI.exe                  8304 Console                    3     75.188 K
+RuntimeBroker.exe            19284 Console                    3     47.584 K
+YourPhone.exe                11284 Console                    3     13.548 K
+PowerMgr.exe                  1564 Console                    3      3.116 K
+RuntimeBroker.exe             7704 Console                    3     10.100 K
+RuntimeBroker.exe             7724 Console                    3     22.332 K
+AnyDesk.exe                   7388 Console                    3      3.512 K
+Creative Cloud.exe           18832 Console                    3     28.996 K
+AdobeIPCBroker.exe            9876 Console                    3      5.416 K
+duet.exe                     10048 Console                    3      6.932 K
+Adobe Desktop Service.exe    11968 Console                    3     27.228 K
+Adobe CEF Helper.exe          1680 Console                    3      5.792 K
+CoreSync.exe                 16392 Console                    3      8.808 K
+CCXProcess.exe                1064 Console                    3        696 K
+node.exe                     15396 Console                    3     13.684 K
+conhost.exe                  15720 Console                    3      1.404 K
+Adobe CEF Helper.exe          9852 Console                    3     10.232 K
+RAVBg64.exe                  12484 Console                    3      1.560 K
+RAVCpl64.exe                 17596 Console                    3      1.836 K
+ApplicationFrameHost.exe     20456 Console                    3     30.692 K
+svchost.exe                  18868 Console                    3      8.936 K
+rundll32.exe                  3916 Console                    3      4.280 K
+LockApp.exe                   6488 Console                    3     26.224 K
+RuntimeBroker.exe            15120 Console                    3     23.200 K
+WindowsInternal.Composabl    10992 Console                    3     13.676 K
+svchost.exe                   5052 Console                    3      3.468 K
+RuntimeBroker.exe             2560 Console                    3     26.544 K
+dllhost.exe                  13512 Console                    3      9.868 K
+AppMarket.exe                13760 Console                    3     50.928 K
+TBSWebRenderer.exe            6708 Console                    3     61.592 K
+svchost.exe                   6192 Console                    3      2.744 K
+svchost.exe                  12152 Console                    3      1.820 K
+ShellExperienceHost.exe      13300 Console                    3     47.020 K
+dllhost.exe                  17892 Console                    3      2.688 K
+dasHost.exe                  19800 Services                   0      1.000 K
+SystemSettingsBroker.exe     23776 Console                    3     15.224 K
+SecurityHealthHost.exe       27200 Console                    3      5.156 K
+svchost.exe                   6928 Services                   0      3.292 K
+svchost.exe                  32900 Services                   0      3.904 K
+taskhostw.exe                34660 Console                    3     12.752 K
+AppMarket.exe                46844 Console                    3        676 K
+Telegram.exe                 56600 Console                    3    105.176 K
+svchost.exe                  45088 Services                   0      2.176 K
+svchost.exe                  43964 Services                   0      4.584 K
+svchost.exe                  46404 Services                   0     34.920 K
+SkypeApp.exe                 50528 Console                    3      8.204 K
+RuntimeBroker.exe            54744 Console                    3      3.784 K
+chrome.exe                   53600 Console                    3    310.932 K
+chrome.exe                   43252 Console                    3      6.436 K
+chrome.exe                   40176 Console                    3      8.040 K
+chrome.exe                   55936 Console                    3    730.424 K
+chrome.exe                   53976 Console                    3     63.128 K
+chrome.exe                   56396 Console                    3     60.560 K
+chrome.exe                   56936 Console                    3    176.392 K
+chrome.exe                   57720 Console                    3     39.632 K
+chrome.exe                    2980 Console                    3    120.068 K
+chrome.exe                   52984 Console                    3    236.816 K
+chrome.exe                   55880 Console                    3     93.492 K
+chrome.exe                   49416 Console                    3     33.212 K
+chrome.exe                   35332 Console                    3     60.656 K
+chrome.exe                   34720 Console                    3     99.732 K
+chrome.exe                    6336 Console                    3    201.040 K
+chrome.exe                   24272 Console                    3     57.188 K
+chrome.exe                   19264 Console                    3     15.792 K
+chrome.exe                   55004 Console                    3    285.496 K
+chrome.exe                   25448 Console                    3     70.872 K
+chrome.exe                   43916 Console                    3    175.240 K
+chrome.exe                   55636 Console                    3    177.336 K
+Calculator.exe               26552 Console                    3        608 K
+chrome.exe                   52996 Console                    3     99.396 K
+chrome.exe                   43088 Console                    3     83.160 K
+chrome.exe                   33752 Console                    3     30.512 K
+chrome.exe                   58008 Console                    3     26.696 K
+chrome.exe                   42480 Console                    3     84.408 K
+chrome.exe                   55412 Console                    3     29.104 K
+chrome.exe                   45144 Console                    3     38.324 K
+chrome.exe                   19344 Console                    3     85.696 K
+chrome.exe                   43132 Console                    3     56.876 K
+chrome.exe                    2116 Console                    3     82.872 K
+chrome.exe                    7288 Console                    3    128.276 K
+chrome.exe                   56428 Console                    3    152.892 K
+chrome.exe                   47648 Console                    3    128.512 K
+chrome.exe                   30788 Console                    3     37.776 K
+chrome.exe                   27136 Console                    3     61.776 K
+WUDFHost.exe                 42408 Services                   0      8.280 K
+chrome.exe                   53536 Console                    3     49.692 K
+chrome.exe                   59116 Console                    3     53.952 K
+chrome.exe                   61376 Console                    3    160.420 K
+chrome.exe                   54812 Console                    3     87.540 K
+chrome.exe                   48380 Console                    3     70.852 K
+chrome.exe                   63312 Console                    3    157.528 K
+Video.UI.exe                  8252 Console                    3        516 K
+chrome.exe                   60800 Console                    3     55.308 K
+chrome.exe                   10280 Console                    3     63.940 K
+Spotify.exe                  64284 Console                    3    110.100 K
+Spotify.exe                  63764 Console                    3     14.712 K
+Spotify.exe                  48832 Console                    3     49.432 K
+Spotify.exe                  59380 Console                    3     32.052 K
+Spotify.exe                  53272 Console                    3    204.088 K
+chrome.exe                   64336 Console                    3     60.800 K
+chrome.exe                   64392 Console                    3     46.856 K
+chrome.exe                   53864 Console                    3     40.284 K
+chrome.exe                   62160 Console                    3     29.408 K
+chrome.exe                   48312 Console                    3     44.424 K
+chrome.exe                   59192 Console                    3     62.064 K
+chrome.exe                   57088 Console                    3     63.596 K
+chrome.exe                   65460 Console                    3     32.044 K
+chrome.exe                   37100 Console                    3     86.524 K
+audiodg.exe                  65972 Services                   0     20.556 K
+OfficeClickToRun.exe         53068 Services                   0     46.516 K
+svchost.exe                  60912 Services                   0     19.288 K
+AppVShNotify.exe             27668 Services                   0      6.032 K
+AppVShNotify.exe             61620 Console                    3      6.600 K
+chrome.exe                   51068 Console                    3     36.236 K
+SearchIndexer.exe            64664 Services                   0     52.464 K
+svchost.exe                  66416 Services                   0      7.948 K
+LPlatSvc.exe                 64432 Console                    3      6.312 K
+chrome.exe                   66388 Console                    3     30.816 K
+svchost.exe                  48748 Services                   0      5.012 K
+smartscreen.exe              66536 Console                    3     29.632 K
+chrome.exe                   36616 Console                    3     18.040 K
+RuntimeBroker.exe             9832 Console                    3     28.560 K
+MicrosoftEdge.exe            44744 Console                    3     55.696 K
+browser_broker.exe           64900 Console                    3      8.204 K
+MicrosoftEdgeSH.exe          65444 Console                    3     12.764 K
+MicrosoftEdgeCP.exe          64132 Console                    3     53.792 K
+notepad.exe                  63268 Console                    3     14.172 K
+chrome.exe                   39300 Console                    3     81.396 K
+chrome.exe                   57892 Console                    3     90.220 K
+chrome.exe                   64400 Console                    3     49.948 K
+chrome.exe                   55200 Console                    3     35.448 K
+cmd.exe                      56836 Console                    3     13.340 K
+conhost.exe                  42992 Console                    3     18.604 K
+chrome.exe                   65848 Console                    3     67.908 K
+chrome.exe                   54608 Console                    3     83.324 K
+chrome.exe                   62848 Console                    3     96.388 K
+chrome.exe                   62988 Console                    3     56.172 K
+chrome.exe                   33984 Console                    3     35.036 K
+WmiPrvSE.exe                 44772 Services                   0     14.224 K
+WmiPrvSE.exe                 65060 Services                   0      7.940 K
+TrustedInstaller.exe         65780 Services                   0      6.708 K
+TiWorker.exe                 10092 Services                   0     10.532 K
+chrome.exe                   63920 Console                    3     56.976 K
+tasklist.exe                 44820 Console                    3      8.340 K
+
+9.C:\Users\ThinkPad L450 i5>ipconfig
+
+Windows IP Configuration
+
+
+Ethernet adapter Ethernet 2:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Local Area Connection* 1:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Local Area Connection* 2:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Wi-Fi 2:
+
+   Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : fe80::98ce:8458:48db:834%17
+   IPv4 Address. . . . . . . . . . . : 192.168.1.150
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 192.168.1.1
+
+Ethernet adapter Bluetooth Network Connection 2:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+10.C:\Users\ThinkPad L450 i5>exit
+
+11.C:\Users\ThinkPad L450 i5>ping
+
+Usage: ping [-t] [-a] [-n count] [-l size] [-f] [-i TTL] [-v TOS]
+            [-r count] [-s count] [[-j host-list] | [-k host-list]]
+            [-w timeout] [-R] [-S srcaddr] [-c compartment] [-p]
+            [-4] [-6] target_name
+
+Options:
+    -t             Ping the specified host until stopped.
+                   To see statistics and continue - type Control-Break;
+                   To stop - type Control-C.
+    -a             Resolve addresses to hostnames.
+    -n count       Number of echo requests to send.
+    -l size        Send buffer size.
+    -f             Set Don't Fragment flag in packet (IPv4-only).
+    -i TTL         Time To Live.
+    -v TOS         Type Of Service (IPv4-only. This setting has been deprecated
+                   and has no effect on the type of service field in the IP
+                   Header).
+    -r count       Record route for count hops (IPv4-only).
+    -s count       Timestamp for count hops (IPv4-only).
+    -j host-list   Loose source route along host-list (IPv4-only).
+    -k host-list   Strict source route along host-list (IPv4-only).
+    -w timeout     Timeout in milliseconds to wait for each reply.
+    -R             Use routing header to test reverse route also (IPv6-only).
+                   Per RFC 5095 the use of this routing header has been
+                   deprecated. Some systems may drop echo requests if
+                   this header is used.
+    -S srcaddr     Source address to use.
+    -c compartment Routing compartment identifier.
+    -p             Ping a Hyper-V Network Virtualization provider address.
+    -4             Force using IPv4.
+    -6             Force using IPv6.
+
+12.C:\Users\ThinkPad L450 i5>tracert
+
+Usage: tracert [-d] [-h maximum_hops] [-j host-list] [-w timeout]
+               [-R] [-S srcaddr] [-4] [-6] target_name
+
+Options:
+    -d                 Do not resolve addresses to hostnames.
+    -h maximum_hops    Maximum number of hops to search for target.
+    -j host-list       Loose source route along host-list (IPv4-only).
+    -w timeout         Wait timeout milliseconds for each reply.
+    -R                 Trace round-trip path (IPv6-only).
+    -S srcaddr         Source address to use (IPv6-only).
+    -4                 Force using IPv4.
+    -6                 Force using IPv6.
+
+13.C:\Users\ThinkPad L450 i5>klist
+
+Current LogonId is 0:0x1542a5d
+
+Cached Tickets: (0)
+
+14.C:\Users\ThinkPad L450 i5>quser
+ USERNAME              SESSIONNAME        ID  STATE   IDLE TIME  LOGON TIME
+>minion                console             3  Active   11+23:04  14/02/2020 19:06
+
+15.C:\Users\ThinkPad L450 i5>whoami
+desktop-q1aa232\minion
+
+16.C:\Users\ThinkPad L450 i5>where
+The syntax of this command is:
+
+WHERE [/R dir] [/Q] [/F] [/T] pattern...
+
+Description:
+    Displays the location of files that match the search pattern.
+    By default, the search is done along the current directory and
+    in the paths specified by the PATH environment variable.
+
+Parameter List:
+    /R       Recursively searches and displays the files that match the
+             given pattern starting from the specified directory.
+
+    /Q       Returns only the exit code, without displaying the list
+             of matched files. (Quiet mode)
+
+    /F       Displays the matched filename in double quotes.
+
+    /T       Displays the file size, last modified date and time for all
+             matched files.
+
+    pattern  Specifies the search pattern for the files to match.
+             Wildcards * and ? can be used in the pattern. The
+             "$env:pattern" and "path:pattern" formats can also be
+             specified, where "env" is an environment variable and
+             the search is done in the specified paths of the "env"
+             environment variable. These formats should not be used
+             with /R. The search is also done by appending the
+             extensions of the PATHEXT variable to the pattern.
+
+     /?      Displays this help message.
+
+  NOTE: The tool returns an error level of 0 if the search is
+        successful, of 1 if the search is unsuccessful and
+        of 2 for failures or errors.
+
+Examples:
+    WHERE /?
+    WHERE myfilename1 myfile????.*
+    WHERE $windir:*.*
+    WHERE /R c:\windows *.exe *.dll *.bat
+    WHERE /Q ??.???
+    WHERE "c:\windows;c:\windows\system32:*.dll"
+    WHERE /F /T *.dll
+
+17.C:\Users\ThinkPad L450 i5>ver
+
+Microsoft Windows [Version 10.0.18362.657]
+
+18.C:\Users\ThinkPad L450 i5>verifier
+
+19.C:\Users\ThinkPad L450 i5>start
+
+20.C:\Users\ThinkPad L450 i5>shutdown
+Usage: shutdown [/i | /l | /s | /sg | /r | /g | /a | /p | /h | /e | /o] [/hybrid] [/soft] [/fw] [/f]
+    [/m \\computer][/t xxx][/d [p|u:]xx:yy [/c "comment"]]
+
+    No args    Display help. This is the same as typing /?.
+    /?         Display help. This is the same as not typing any options.
+    /i         Display the graphical user interface (GUI).
+               This must be the first option.
+    /l         Log off. This cannot be used with /m or /d options.
+    /s         Shutdown the computer.
+    /sg        Shutdown the computer. On the next boot, if Automatic Restart Sign-On
+               is enabled, automatically sign in and lock last interactive user.
+               After sign in, restart any registered applications.
+    /r         Full shutdown and restart the computer.
+    /g         Full shutdown and restart the computer. After the system is rebooted,
+               if Automatic Restart Sign-On is enabled, automatically sign in and
+               lock last interactive user.
+               After sign in, restart any registered applications.
+    /a         Abort a system shutdown.
+               This can only be used during the time-out period.
+               Combine with /fw to clear any pending boots to firmware.
+    /p         Turn off the local computer with no time-out or warning.
+               Can be used with /d and /f options.
+    /h         Hibernate the local computer.
+               Can be used with the /f option.
+    /hybrid    Performs a shutdown of the computer and prepares it for fast startup.
+               Must be used with /s option.
+    /fw        Combine with a shutdown option to cause the next boot to go to the
+               firmware user interface.
+    /e         Document the reason for an unexpected shutdown of a computer.
+    /o         Go to the advanced boot options menu and restart the computer.
+               Must be used with /r option.
+    /m \\computer Specify the target computer.
+    /t xxx     Set the time-out period before shutdown to xxx seconds.
+               The valid range is 0-315360000 (10 years), with a default of 30.
+               If the timeout period is greater than 0, the /f parameter is
+               implied.
+    /c "comment" Comment on the reason for the restart or shutdown.
+               Maximum of 512 characters allowed.
+    /f         Force running applications to close without forewarning users.
+               The /f parameter is implied when a value greater than 0 is
+               specified for the /t parameter.
+    /d [p|u:]xx:yy  Provide the reason for the restart or shutdown.
+               p indicates that the restart or shutdown is planned.
+               u indicates that the reason is user defined.
+               If neither p nor u is specified the restart or shutdown is
+               unplanned.
+               xx is the major reason number (positive integer less than 256).
+               yy is the minor reason number (positive integer less than 65536).
+
+Reasons on this computer:
+(E = Expected U = Unexpected P = planned, C = customer defined)
+Type    Major   Minor   Title
+
+ U      0       0       Other (Unplanned)
+E       0       0       Other (Unplanned)
+E P     0       0       Other (Planned)
+ U      0       5       Other Failure: System Unresponsive
+E       1       1       Hardware: Maintenance (Unplanned)
+E P     1       1       Hardware: Maintenance (Planned)
+E       1       2       Hardware: Installation (Unplanned)
+E P     1       2       Hardware: Installation (Planned)
+E       2       2       Operating System: Recovery (Unplanned)
+E P     2       2       Operating System: Recovery (Planned)
+  P     2       3       Operating System: Upgrade (Planned)
+E       2       4       Operating System: Reconfiguration (Unplanned)
+E P     2       4       Operating System: Reconfiguration (Planned)
+  P     2       16      Operating System: Service pack (Planned)
+        2       17      Operating System: Hot fix (Unplanned)
+  P     2       17      Operating System: Hot fix (Planned)
+        2       18      Operating System: Security fix (Unplanned)
+  P     2       18      Operating System: Security fix (Planned)
+E       4       1       Application: Maintenance (Unplanned)
+E P     4       1       Application: Maintenance (Planned)
+E P     4       2       Application: Installation (Planned)
+E       4       5       Application: Unresponsive
+E       4       6       Application: Unstable
+ U      5       15      System Failure: Stop error
+ U      5       19      Security issue (Unplanned)
+E       5       19      Security issue (Unplanned)
+E P     5       19      Security issue (Planned)
+E       5       20      Loss of network connectivity (Unplanned)
+ U      6       11      Power Failure: Cord Unplugged
+ U      6       12      Power Failure: Environment
+  P     7       0       Legacy API shutdown
