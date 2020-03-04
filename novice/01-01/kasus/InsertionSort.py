@@ -10,4 +10,5 @@ def insertion(list):
 list = [84,77,92,1,4,99,37,15]
 print("Data yang akan di sort", list)
 print("Insertion Sort :")
+
 insertion(list)
