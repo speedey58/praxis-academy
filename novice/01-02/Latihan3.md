@@ -1,11 +1,11 @@
 # Input dan Output pada Python
 
 Input menggunakan script berikut
-''' python
+'''python
 input()
 '''
 
-Output menggunakan
-''' python
+Output menggunakan script berikut
+'''python
 print""
 '''
