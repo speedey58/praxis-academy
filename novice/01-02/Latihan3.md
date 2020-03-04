@@ -4,6 +4,7 @@ Input menggunakan script berikut
 '''
 input()
 '''
+
 Output menggunakan
 '''
 print""
