@@ -1,4 +1,5 @@
 1. Buat 2 buah file JSON dan XML, keduanya mempunyai struktur data dan isi yang sama.
+
 Diberikan data profiles dengan rincian sebagai berikut:
 
 Nama | Lokasi
@@ -39,6 +40,7 @@ dalam bahasa XML sbb:
 ```
 
 2. Dengan menggunakan Python, baca data dalam masing-masing format tersebut, tampilkan isi data.
+
 dalam python data membaca profiles.json ditulis sbb:
 
 ```
@@ -64,4 +66,5 @@ print(lokasi)
 ```
 
 3. Bandingkan lama eksekusi untuk membaca file XML dan file JSON tersebut. Mana yang lebih cepat? Jelaskan mengapa demikian.
+
 lebih cepat eksekusi json dibanding xml karena script xml lebih panjang dibanding json
