@@ -1,14 +1,14 @@
-## Sentralisasi Data
+## Serialisasi Data
 
-Sentralisasi data dilakukan agar database di python bisa dibaca oleh bahasa pemrograman lain.
+Serialisasi data dilakukan agar database di python bisa dibaca oleh bahasa pemrograman lain.
 
-syntax sentralisasi sbb:
+syntax serialisasi sbb:
 ```
 dump ()
 ```
-Kebalikan sentralisasi adalah desentralisasi, yaitu dilakukan supaya database dr bahasa pemrograman lain bisa dibaca di python.
+Kebalikan serialisasi adalah deserialisasi, yaitu dilakukan supaya database dr bahasa pemrograman lain bisa dibaca di python.
 
-syntax desentralisasi sbb:
+syntax deserialisasi sbb:
 ```
 loads()
 ```
