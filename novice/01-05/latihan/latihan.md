@@ -6,7 +6,7 @@ syntax sentralisasi sbb:
 ```
 dump ()
 ```
-Kebalikan sentralisasi adalah desentralisasi, yaitu dilakukan supaya database dr bahasa pemrograman lain bisa dibaca di pytho.
+Kebalikan sentralisasi adalah desentralisasi, yaitu dilakukan supaya database dr bahasa pemrograman lain bisa dibaca di python.
 
 syntax desentralisasi sbb:
 ```
