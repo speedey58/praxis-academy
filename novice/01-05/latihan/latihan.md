@@ -12,3 +12,11 @@ syntax deserialisasi sbb:
 ```
 loads()
 ```
+
+## Pickle
+Pickle adalah module yang digunakan untuk serialisasi dan deserialisasi di python
+
+syntax pickle module
+```
+import pickle
+```
