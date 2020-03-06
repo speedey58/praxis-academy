@@ -1,0 +1,14 @@
+<profiles>
+    <profile>
+        <nama>Ervan</nama> <lokasi>Borobudur</lokasi>
+    </profile>
+    <profile>
+        <nama>Agus</nama> <lokasi>Dukun</lokasi>
+    </profile>
+    <profile>
+        <nama>Kadek</nama> <lokasi>Tabanan</lokasi>
+    </profile>
+    <profile>
+        <nama>Robi</nama> <lokasi>Negara</lokasi>
+    </profile>
+</profiles>
