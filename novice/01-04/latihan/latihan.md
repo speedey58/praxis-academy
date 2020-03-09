@@ -12,13 +12,13 @@ UML diciptakan oleh Object Management Group yang diawali dengan versi 1.0 pada J
 
 Dalam UML sendiri terdapat beberapa diagram yang wajib dikuasai yaitu:
 
-####Structural Diagram
+#### Structural Diagram
 1. Class Diagram, diagram ini terdiri dari class, interface, association, dan collaboration. Diagram ini menggambarkan objek - objek yang ada di sistem.
 2. Object Diagram, diagram ini menggambarkan hasil instansi dari class diagram. Diagram ini digunakan untuk membuat prototype
 3. Component Diagram, diagram ini menggambarkan kumpulan komponen dan hubungan antar komponen. Komponen terdiri dari class, interface, atau collaboration
 4. Deployment Diagram, diagram ini menggambarkan kumpulan node dan hubungan antar node. Node adalah entitas fisik dimana komponen di-deploy. Entitas fisik ini dapat berupa server atau perangkat keras lainnya.
 
-####Behavioral Diagram
+#### Behavioral Diagram
 1. Use case Diagram, diagram ini menggambarkan kumpulan use case, aktor, dan hubungan mereka. Use case adalah hubungan antara fungsionalitas sistem dengan aktor internal/eksternal dari sistem.
 2. Sequence Diagram, diagram ini menggambarkan interaksi yang menjelaskan bagaimana pesan mengalir dari objek ke objek lainnya.
 3. Collaboration Diagram, diagram ini merupakan bentuk lain dari sequence diagram. Diagram ini menggambarkan struktur organisasi dari sistem dengan pesan yang diterima dan dikirim.
