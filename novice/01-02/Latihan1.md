@@ -17,5 +17,5 @@ Ada beberapa type data yang dikenal dalam bahasa python, berikut 3 type data yan
   
   Data untaian yang menyimpan berbagai tipe data berupa pasangan penunjuk dan nilai
   ```
-  contoh: {'nama':'Ervan','IPK': 3.41,'jurusan':'matematika','tahun':'2004']
+  contoh: {'nama':'Ervan','IPK': 3.41,'jurusan':'matematika','tahun':'2004'}
   ```
