@@ -1,6 +1,6 @@
 ## Class
 
-Class di python merupakan objek yang berisi metode-metode. Di dalam sebuah class, biasanya terdapat sebuah metode yang namanya sudah di sediakan oleh python... Namanya adalah “__init__”. Syntax class adalah sebagai berikut:
+Class di python merupakan objek yang berisi metode-metode. Di dalam sebuah class, biasanya terdapat sebuah metode yang namanya sudah di sediakan oleh python. Namanya adalah **__init__**. Syntax class adalah sebagai berikut:
 ```
 class namaClass () :
     def __init__() :
