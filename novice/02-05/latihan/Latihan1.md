@@ -1,4 +1,4 @@
-### Instalasi Maria.db di Windows 10
+### Instalasi Mariadb di Windows 10
 klik link berikut <https://downloads.mariadb.org/>
 
 ### Membuat database sederhana
