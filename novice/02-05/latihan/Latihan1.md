@@ -3,7 +3,7 @@ klik link berikut <https://downloads.mariadb.org/>
 
 ### Membuat database sederhana
 buka command prompt
-masuk ke directory dimana maria.db terinstall
+masuk ke directory dimana mariadb terinstall
 ```
 C:\Users\ThinkPad L450 i5>cd "C:\Program Files (x86)\MariaDB 10.4\bin"
 ```
@@ -65,8 +65,8 @@ Query OK, 1 row affected (0.008 sec)
 MariaDB [keluarga]> INSERT INTO profil VALUES ('03','Aghnia C Kurniawan','Magelang','5');
 Query OK, 1 row affected (0.008 sec)
 
-MariaDB [keluarga]> INSERT INTO profil VALUES ('04','R Alghoozi Kurniawan','Magelang','2')
-    -> ;
+MariaDB [keluarga]> INSERT INTO profil VALUES ('04','R Alghoozi Kurniawan','Magelang','2');
+
 Query OK, 1 row affected (0.008 sec)
 ```
 untuk menampilkan tabel yang telah dibuat
