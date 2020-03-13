@@ -24,6 +24,7 @@ host diisikan "localhost", user diisikan "root", passwd diisikan pasword untuk m
 
 ## Membuat database MySQL dari python 
 diberikan data pebalap motogp sebagai berikut:
+
 Nomor | Nama | Motor
 ----- | ---- | -----
 46 | Rossi | Yamaha
@@ -32,3 +33,9 @@ Nomor | Nama | Motor
 45 | Rins | Suzuki
 55 | Syahrin | KTM
 
+kita akan coba membuat database MySQL dari data diatas
+
+1. Membuat Database
+2. Membuat Table
+3. Menambahkan Data
+4. Menampilkan Data
