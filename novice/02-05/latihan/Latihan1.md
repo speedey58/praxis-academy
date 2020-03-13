@@ -1,8 +1,8 @@
 ### Instalasi Mariadb di Windows 10
-klik link berikut <https://downloads.mariadb.org/>
+klik link berikut <https://downloads.mariadb.org/> kemudian download file mariadb
 
 ### Membuat database sederhana
-buka command prompt
+buka command prompt dan
 masuk ke directory dimana mariadb terinstall
 ```
 C:\Users\ThinkPad L450 i5>cd "C:\Program Files (x86)\MariaDB 10.4\bin"
