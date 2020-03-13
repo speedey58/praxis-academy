@@ -22,4 +22,13 @@ if db.is_connected():
 ```
 host diisikan "localhost", user diisikan "root", passwd diisikan pasword untuk mengakses database. Jalankan file python di atas, jika koneksi sukses akan muncul **Berhasil terhubung ke database**.
 
-## Membuat database dari python 
+## Membuat database MySQL dari python 
+diberikan data pebalap motogp sebagai berikut:
+Nomor|Nama|Motor
+-----|----|-----
+46|Rossi|Yamaha
+93|Marquez|Honda
+04|Dovizioso|Ducati
+45|Rins|Suzuki
+55|Syahrin|KTM
+
