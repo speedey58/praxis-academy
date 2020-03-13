@@ -24,11 +24,11 @@ host diisikan "localhost", user diisikan "root", passwd diisikan pasword untuk m
 
 ## Membuat database MySQL dari python 
 diberikan data pebalap motogp sebagai berikut:
-Nomor|Nama|Motor
------|----|-----
-46|Rossi|Yamaha
-93|Marquez|Honda
-04|Dovizioso|Ducati
-45|Rins|Suzuki
-55|Syahrin|KTM
+Nomor | Nama | Motor
+----- | ---- | -----
+46 | Rossi | Yamaha
+93 | Marquez | Honda
+04 | Dovizioso | Ducati
+45 | Rins | Suzuki
+55 | Syahrin | KTM
 
