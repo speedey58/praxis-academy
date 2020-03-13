@@ -22,6 +22,29 @@ if db.is_connected():
 ```
 host diisikan "localhost", user diisikan "root", passwd diisikan pasword untuk mengakses database. Jalankan file python di atas, jika koneksi sukses akan muncul **Berhasil terhubung ke database**.
 
+## Mengambil data MySQL dari python
+kita akan mengambil data yang dibuat dari latihan sebelumnya di MariaDB
+
+```
+import mysql.connector
+
+db = mysql.connector.connect(
+    host="localhost",
+    user="root",
+    passwd="mariadb",
+    database="keluarga"
+)
+
+cursor = db.cursor()
+sql = "SELECT * FROM profil"
+cursor.execute(sql)
+
+results = cursor.fetchall()
+
+for data in results:
+    print(data)
+```
+
 ## Membuat database MySQL dari python 
 diberikan data pebalap motogp sebagai berikut:
 
