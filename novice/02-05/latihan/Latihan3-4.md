@@ -36,6 +36,18 @@ Nomor | Nama | Motor
 kita akan coba membuat database MySQL dari data diatas
 
 1. Membuat Database
+   ```
+   import mysql.connector
+
+    db = mysql.connector.connect(
+    host="localhost",
+    user="root",
+    passwd="mariadb"
+    )
+   
+    cursor = db.cursor()
+    cursor.execute("CREATE DATABASE motogp")
+    ```
 2. Membuat Table
 3. Menambahkan Data
 4. Menampilkan Data
