@@ -60,15 +60,15 @@ MariaDB [(none)]> show databases;
 
 MariaDB [(none)]> use kasus0205
 Database changed
-
+```
+membuat 3 tabel berikut relasinya didalam database kasus0205
+```
 MariaDB [kasus0205]> create table salutation (
     -> salutation_id int PRIMARY KEY AUTO_INCREMENT,
     -> salutation varchar(5)
     -> );
 Query OK, 0 rows affected (0.059 sec)
-```
-membuat 3 tabel berikut relasinya didalam database kasus0205
-```
+
 MariaDB [kasus0205]> create table namesaddress (
     -> membership_id int PRIMARY KEY AUTO_INCREMENT,
     -> full_names varchar(15),
