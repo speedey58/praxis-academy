@@ -38,7 +38,9 @@ Server version: 10.4.12-MariaDB mariadb.org binary distribution
 Copyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.
 
 Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
-
+```
+membuat database dengan nama kasus0205
+```
 MariaDB [(none)]> create database kasus0205;
 Query OK, 1 row affected (0.007 sec)
 
@@ -64,7 +66,9 @@ MariaDB [kasus0205]> create table salutation (
     -> salutation varchar(5)
     -> );
 Query OK, 0 rows affected (0.059 sec)
-
+```
+membuat 3 tabel berikut relasinya didalam database kasus0205
+```
 MariaDB [kasus0205]> create table namesaddress (
     -> membership_id int PRIMARY KEY AUTO_INCREMENT,
     -> full_names varchar(15),
@@ -80,7 +84,9 @@ MariaDB [kasus0205]> create table movie (
     -> FOREIGN KEY(membership_id) REFERENCES namesaddress(membership_id)
     -> );
 Query OK, 0 rows affected (0.152 sec)
-
+```
+menginput isi tabel sesuai soal diatas, serta menampilkannya
+```
 MariaDB [kasus0205]> INSERT INTO salutation VALUES
     -> (1,'Mr.'),
     -> (2,'Ms.'),
