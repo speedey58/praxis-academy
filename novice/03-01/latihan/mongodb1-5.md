@@ -1,5 +1,5 @@
 ## Instalasi Mongodb di Linux
- ketikkan perintahberikut di terminal
+ ketikkan perintah berikut di terminal
  ```
  sudo apt install mongdb
  ```
