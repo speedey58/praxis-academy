@@ -300,12 +300,7 @@ ketikkan __\q__ untuk keluar sessi
 
 ## Membangun Aplikasi Python dengan Cockroachdb
 
-untuk dapat menjalankan aplikasi python pada database newSQL, diperlukan framework Django.
-Ketikkan perintah berikut di terminal untuk instalasi django di Python.
+untuk dapat menjalankan aplikasi python pada database newSQL, diperlukan postgreSQL yaitu sebuah sistem basis data. salah satu sistem basis data yang populer adalah psycopg2. Untuk inisialisasi psycopg2 di python, cukup ketikkan perintah berikut di terminal.
 ```
-pip3 install django
-```
-berikut untuk instalasi django-cockroachdb
-```
-pip3 install django-cockroachdb
+pip3 install psycopg2
 ```
