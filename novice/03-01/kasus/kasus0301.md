@@ -84,30 +84,10 @@ INSERT 4
 
 Time: 2.170094ms
 
-root@127.133.241.80:34887/movr> INSERT INTO nama (membership_id,full_names,physical_address,salutation_id)
-                             -> (1,'janet_jones','first_street_plot4',2)
-                             -> (2,'robert_phil','3rd_street_34',1)
+root@127.133.241.80:34887/movr> INSERT INTO nama (membership_id,full_names,physical_address,salutation_id) VALUES
+                             -> (1,'janet_jones','first_street_plot4',2),
+                             -> (2,'robert_phil','3rd_street_34',1),
                              -> (3,'robert_phil','5th_avenue',1);
-invalid syntax: statement ignored: at or near "1": syntax error
-DETAIL: source SQL:
-INSERT INTO nama (membership_id,full_names,physical_address,salutation_id)
-(1,'janet_jones','first_street_plot4',2)
- ^
-HINT: try \h <SELECTCLAUSE>
-root@127.133.241.80:34887/movr> INSERT INTO nama (membership_id,full_names,physical_address,salutation_id) VALUES
-(1,'janet_jones','first_street_plot4',2)
-(2,'robert_phil','3rd_street_34',1)
-(3,'robert_phil','5th_avenue',1);
-invalid syntax: statement ignored: at or near "(": syntax error
-DETAIL: source SQL:
-INSERT INTO nama (membership_id,full_names,physical_address,salutation_id) VALUES
-(1,'janet_jones','first_street_plot4',2)
-(2,'robert_phil','3rd_street_34',1)
-^
-root@127.133.241.80:34887/movr> INSERT INTO nama (membership_id,full_names,physical_address,salutation_id) VALUES
-(1,'janet_jones','first_street_plot4',2),
-(2,'robert_phil','3rd_street_34',1),
-(3,'robert_phil','5th_avenue',1);
 INSERT 3
 
 Time: 2.476636ms
@@ -121,7 +101,9 @@ root@127.133.241.80:34887/movr> INSERT INTO film (membership_id,movies_rented) V
 INSERT 5
 
 Time: 2.659049ms
-
+```
+tampilkan data
+```
 root@127.133.241.80:34887/movr> SELECT * FROM nama;
   membership_id | full_names  |  physical_address  | salutation_id  
 +---------------+-------------+--------------------+---------------+
