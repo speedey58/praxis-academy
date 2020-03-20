@@ -108,16 +108,17 @@ dari hasil yang keluar di atas, diketahui ada 6 tabel didalam database demo
 
   Time: 8.678797ms
 
-  root@127.57.29.25:46519/movr> INSERT INTO drivers (name, city, dl, address, id) VALUES
-      ('Adam Driver', 'chicago', 'DEF-5678', '201 E Randolph St', '1eb851eb-851e-4800-8000-000000000006');
-  INSERT 1
-
-  Time: 1.523111ms
   ```
 * Update
 
   untuk mengisi data pada tabel yang telah dibuat sbb
   ```
+  
+  root@127.57.29.25:46519/movr> INSERT INTO drivers (name, city, dl, address, id) VALUES
+      ('Adam Driver', 'chicago', 'DEF-5678', '201 E Randolph St', '1eb851eb-851e-4800-8000-000000000006');
+  INSERT 1
+
+  Time: 1.523111ms
 
   root@127.57.29.25:46519/movr> INSERT INTO drivers VALUES
       ('8a3d70a3-d70a-4000-8000-00000000001b', 'seattle', 'Eric', 'GHI-9123', '400 Broad St'),
