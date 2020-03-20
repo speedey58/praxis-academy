@@ -9,15 +9,12 @@ cp -i cockroach-v19.2.4.linux-amd64/cockroach /usr/local/bin/
 ```
 
 ## CRUD CockroachDB
-* Create
-* Read
-* Update
-* Delete
-root@127.204.44.244:35739/movr> \q
-Error: invalid syntax
-Failed running "demo movr"
-(base) minion@minion-PC:~$ cockroach demo
 
+ketikkan perintah berikut di terminal untuk memulai sesi demo cockroach
+```
+(base) minion@minion-PC:~$ cockroach demo
+```
+akan muncul sbb:
 ```
 #
 # Welcome to the CockroachDB demo database!
@@ -41,6 +38,9 @@ Failed running "demo movr"
 #
 # Enter \? for a brief introduction.
 #
+```
+ketikkan *show tables* untuk melihat tabel didalam database
+```
 root@127.57.29.25:46519/movr> show tables
                            -> ;
           table_name          
@@ -54,6 +54,14 @@ root@127.57.29.25:46519/movr> show tables
 (6 rows)
 
 Time: 3.306837ms
+```
+dari hasil yang keluar di atas, diketahui ada 6 tabel didalam database demo
+
+* Create
+* Read
+* Update
+* Delete
+```
 
 root@127.57.29.25:46519/movr> CREATE TABLE drivers (
     id UUID NOT NULL,
