@@ -7,3 +7,9 @@ untuk memudahkan mengeksekusi cockroachdb copy binary ke dalam path dengan menja
 ```
 cp -i cockroach-v19.2.4.linux-amd64/cockroach /usr/local/bin/
 ```
+
+## CRUD CockroachDB
+* Create
+* Read
+* Update
+* Delete
