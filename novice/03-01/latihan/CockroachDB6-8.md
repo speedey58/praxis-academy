@@ -138,7 +138,7 @@ dari hasil yang keluar di atas, diketahui ada 6 tabel didalam database demo
 
   Time: 2.197869ms
   ```
-  akan ditampilka data tertentu yang sudah diinput
+  akan ditampilkan data tertentu yang sudah diinput
   ```
   root@127.57.29.25:46519/movr> SELECT * FROM drivers WHERE id in ('70a3d70a-3d70-4400-8000-000000000016', 'b851eb85-1eb8-4000-8000-000000000024');
                      id                  |  city   | name |  dl  | address  
@@ -169,7 +169,7 @@ dari hasil yang keluar di atas, diketahui ada 6 tabel didalam database demo
 
   Time: 798.581µs
   ```
-  menampilka index yang telah dibuat
+  menampilkan index yang telah dibuat
   ```
   root@127.57.29.25:46519/movr> SHOW INDEX FROM users;
     table_name | index_name | non_unique | seq_in_index | column_name | direction | storing | implicit  
@@ -182,7 +182,9 @@ dari hasil yang keluar di atas, diketahui ada 6 tabel didalam database demo
   (5 rows)
 
   Time: 3.382278ms
-
+  ```
+  menampilkan data dengan kriteria tertentu
+  ```
   root@127.57.29.25:46519/movr> SELECT name FROM users LIMIT 10;
           name         
   +-------------------+
@@ -251,7 +253,9 @@ dari hasil yang keluar di atas, diketahui ada 6 tabel didalam database demo
   (15 rows)
 
   Time: 4.701492ms
-
+  ```
+  update data dengan kriteria tertentu
+  ```
   root@127.57.29.25:46519/movr> UPDATE promo_codes SET (description, rules) = ('EXPIRED', '{"type": "percent_discount", "value": "0%"}') WHERE expiration_time < '2019-01-22 03:04:05+00:00';
   UPDATE 669
 
