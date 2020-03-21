@@ -49,12 +49,6 @@ CREATE TABLE
 
 Time: 17.145604ms
 
-root@127.133.241.80:34887/movr> show table;
-invalid syntax: statement ignored: at or near "table": syntax error
-DETAIL: source SQL:
-show table
-     ^
-HINT: try \h SHOW
 root@127.133.241.80:34887/movr> show tables;
           table_name          
 +----------------------------+
