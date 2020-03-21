@@ -70,10 +70,10 @@ root@127.133.241.80:34887/movr> show tables;
 Time: 1.546541ms
 
 root@127.133.241.80:34887/movr> INSERT INTO gelar (salutation_id,salutation) VALUES
-(1,'Mr.'),
-(2,'Ms.'),
-(3,'Mrs.'),
-(4,'Dr.');
+                              -> (1,'Mr.'),
+                              -> (2,'Ms.'),
+                              -> (3,'Mrs.'),
+                              -> (4,'Dr.');
 INSERT 4
 
 Time: 2.170094ms
