@@ -140,3 +140,33 @@ Time: 570.615µs
 root@127.133.241.80:34887/movr> 
 ```
 dengan menggunakan python, akan ditampilkan film apa saja yang ditonton Janet Jones
+
+```
+import psycopg2
+
+conn = psycopg2.connect(database='movr', user='root', host='127.133.241.80', port=34887)
+
+conn.set_session(autocommit=True)
+
+cur = conn.cursor()
+
+cur.execute("SELECT \
+    film.movies_rented \
+    FROM nama \
+    INNER JOIN film ON nama.membership_id = film.membership_id \
+    WHERE nama.full_names='janet_jones'")
+rows = cur.fetchall()
+print('Janet Jones rent:')
+for row in rows:
+    print([str(cell) for cell in row])
+
+
+cur.close()
+conn.close()
+```
+outputnya
+```
+Janet Jones rent:
+['pirates_of_the_caribbean']
+['clash_of_the_titans']
+```
