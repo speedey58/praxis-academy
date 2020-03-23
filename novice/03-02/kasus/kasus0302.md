@@ -24,7 +24,7 @@ menentukan directory penyimpanan file yang akan di upload, serta ekstensi apa aj
 UPLOAD_FOLDER = 'uploads/'
 ALLOWED_EXTENSIONS = set(['txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif'])
 ```
-file python menjalankan flask
+file python menjalankan upload file di flask
 ```
 import os
 from flask import Flask, request, redirect, url_for,send_from_directory
