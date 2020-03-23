@@ -1,11 +1,26 @@
 ## Membuat Aplikasi untuk mengupload File dengan Flask
+
+membuat file html sbb
+
+```
+<!doctype html>
+<title>Upload new File</title>
+<h1>Upload new File</h1>
+<form action="" method=post enctype=multipart/form-data>
+<p><input type=file name=file>
+<input type=submit value=Upload>
+</form>
+```
+menentukan directory penyimpanan file yang akan di upload, serta ekstensi apa aja yang acceptable untuk diupload.
+```
+UPLOAD_FOLDER = 'uploads/'
+ALLOWED_EXTENSIONS = set(['txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif'])
+```
+file python menjalankan flask
 ```
 import os
 from flask import Flask, request, redirect, url_for,send_from_directory
 from werkzeug import secure_filename
-
-UPLOAD_FOLDER = 'uploads/'
-ALLOWED_EXTENSIONS = set(['txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif'])
 
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
@@ -21,22 +36,11 @@ def upload_file():
         if file and allowed_file(file.filename):
             filename = secure_filename(file.filename)
             file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
-            return redirect(url_for('uploaded_file',
-                                    filename=filename))
-    return '''
-��� <!doctype html>
-��� <title>Upload new File</title>
-��� <h1>Upload new File</h1>
-��� <form action="" method=post enctype=multipart/form-data>
-����� <p><input type=file name=file>
-�������� <input type=submit value=Upload>
-��� </form>
-��� '''
+            return redirect(url_for('uploaded_file', filename=filename))
+    
 @app.route('/uploads/<filename>')
 def uploaded_file(filename):
-    return send_from_directory(app.config['UPLOAD_FOLDER'],
-                               filename)
-
+    return send_from_directory(app.config['UPLOAD_FOLDER'],filename)
 
 if __name__ == '__main__':
     app.run(debug=True)
