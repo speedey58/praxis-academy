@@ -28,7 +28,7 @@ pip3 install Flask
 
 ## Membuat aplikasi sederhana dengan Flask
 
-akan dibuat program "Hello World" di python sebagai berikut dengan nama __hellpo.py__
+akan dibuat program "Hello World" di python sebagai berikut dengan nama __hello.py__
 ```
 from flask import Flask
 
@@ -38,7 +38,14 @@ app = Flask(__name__)
 def hello():
  return "Hello World!"
 ```
-ketikkan di terminal untuk menjalankan program tsb
+Dengan penjelasan sebagai berikut:
+* baris 1 flask merupakan framework, sedangkan Flask merupakan tipe data Class di Python
+* baris 3 membuat instace dari Class Flask dengan nama app
+* Kode @app.route("/") memetakan URL home atau localhost
+* def hello(): sbuah fungsi bernama hello yang akan dipanggil
+
+
+Selanjutnya ketikkan di terminal untuk menjalankan program tsb
 ```
 FLASK_APP=hello.py flask run
 ```
