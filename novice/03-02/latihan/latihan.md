@@ -47,3 +47,4 @@ akan muncul sbb:
 Running on http://localhost:5000/
 ```
 buka __localhost__ dibrowser, muncul sbb
+![img]https://github.com/speedey58/GAMBAR/blob/master/DeepinScreenshot_dde-desktop_20200323134225.png?raw=true
