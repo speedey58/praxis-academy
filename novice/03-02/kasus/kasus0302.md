@@ -13,11 +13,11 @@ membuat file html sbb
 ```
 jalankan file, muncul di localhost seperti gambar
 
-[img]!(https://github.com/speedey58/GAMBAR/blob/master/DeepinScreenshot_dde-desktop_20200323220319.png)
+![img](https://github.com/speedey58/GAMBAR/blob/master/DeepinScreenshot_dde-desktop_20200323220319.png)
 
 membuat direktori penyimpanan file uploads
 
-[img]!(https://github.com/speedey58/GAMBAR/blob/master/DeepinScreenshot_select-area_20200323223218.png)
+![img](https://github.com/speedey58/GAMBAR/blob/master/DeepinScreenshot_select-area_20200323223218.png)
 
 menentukan directory penyimpanan file yang akan di upload, serta ekstensi apa aja yang acceptable untuk diupload.
 ```
