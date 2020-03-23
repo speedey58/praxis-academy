@@ -4,13 +4,17 @@ membuat file html sbb
 
 ```
 <!doctype html>
-<title>Upload new File</title>
-<h1>Upload new File</h1>
-<form action="" method=post enctype=multipart/form-data>
-<p><input type=file name=file>
-<input type=submit value=Upload>
+    <title>Upload new File</title>
+    <h1>Upload new File</h1>
+    <form action="" method=post enctype=multipart/form-data>
+    <p><input type=file name=file>
+    <input type=submit value=Upload>
 </form>
 ```
+jalankan file, muncul di localhost seperti gambar
+[img]!(
+membuat direktori penyimpanan file uploads
+[img]!(https://github.com/speedey58/GAMBAR/blob/master/DeepinScreenshot_select-area_20200323223218.png)
 menentukan directory penyimpanan file yang akan di upload, serta ekstensi apa aja yang acceptable untuk diupload.
 ```
 UPLOAD_FOLDER = 'uploads/'
