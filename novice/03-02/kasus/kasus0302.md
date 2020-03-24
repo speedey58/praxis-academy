@@ -11,7 +11,7 @@ membuat file html sbb
     <input type=submit value=Upload>
 </form>
 ```
-jalankan file, muncul di localhost seperti gambar
+jalankan file, muncul di browser seperti gambar
 
 ![img](https://github.com/speedey58/GAMBAR/blob/master/DeepinScreenshot_dde-desktop_20200323220319.png)
 
