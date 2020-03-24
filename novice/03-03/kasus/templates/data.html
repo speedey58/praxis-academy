@@ -1,0 +1,35 @@
+
+
+
+<div class="container">
+ <div class="starter-template">
+ <h1>Tampilkan Data</h1>
+ <table class="table table-striped">
+ <thead>
+ <tr>
+ <td>Id</td>
+ <td>Movie</td>
+ </tr>
+ </thead>
+ <tbody>
+
+{% for row in rent %}
+
+ <tr>
+ <td>{{ row.0 }}</td>
+ <td>{{ row.1 }}</td>
+ </tr>
+
+{% else %}
+
+ <tr>
+ <td colspan="2">No entries here so far</td>
+ </tr>
+
+{% endfor %}
+
+ </tbody>
+ </table>
+ </div>
+</div>
+<!-- /.container -->
