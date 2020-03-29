@@ -157,7 +157,6 @@ db = mysql.connector.connect(
 
 cursor = db.cursor()
 sql = "SELECT \
-    namesaddress.full_names, \
     movie.movie_rented \
     FROM namesaddress \
     INNER JOIN movie ON namesaddress.membership_id = movie.membership_id \
@@ -166,11 +165,13 @@ sql = "SELECT \
 cursor.execute(sql)
 results = cursor.fetchall()
 
+print("Janet Jones rent:")
 for data in results:
     print(data)
 ```
 hasilnya
 ```
-('Janet_Jones', 'Pirates_of_the_Caribbean')
-('Janet_Jones', 'Clash_of_the_Titans')
+Janet Jones rent:
+('Pirates_of_the_Caribbean')
+('Clash_of_the_Titans')
 ```
